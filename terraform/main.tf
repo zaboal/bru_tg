@@ -25,7 +25,7 @@ resource "random_id" "user_hash" {
 
 data "archive_file" "function_zip1" {
   type        = "zip"
-  source_dir  = "${path.module}/src/functions/tg"
+  source_dir  = "${path.module}/src/functions/telegram"
   output_path = "${path.module}/archive.zip"
 }
 
@@ -71,7 +71,7 @@ output "function_https_url" {
 
 data "archive_file" "function_zip2" {
   type        = "zip"
-  source_dir  = "${path.module}/src/functions/bru"
+  source_dir  = "${path.module}/src/functions/business-ru"
   output_path = "${path.module}/archive2.zip"
 }
 
