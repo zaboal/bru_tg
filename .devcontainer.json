@@ -1,17 +1,18 @@
 {
-    "name": "PHP Dev Container",
-    "image": "php:8.2-cli",
+    "name": "PHP & Terraform & zaboal's enchancements",
     "features": {
-        "ghcr.io/devcontainers/features/common-utils:2.5.2": { "installGit": "true"},
-        "ghcr.io/cirolosapio/devcontainers-features/alpine-php-composer:0": {}
+        "ghcr.io/devcontainers/features/php:1": { "version": "8.2" },
+        "ghcr.io/devcontainers-extra/features/composer:1": {},
+        "ghcr.io/devcontainers-extra/features/terraform-asdf:2": {}
     },
     "customizations": {
         "vscode": {
             "extensions": [
-                "GitHub.copilot", 
                 "bmewburn.vscode-intelephense-client",
                 "kokororin.vscode-phpfmt",
-                "PKief.material-icon-theme"
+                "hashicorp.terraform",
+                "github.copilot",
+                "pkief.material-icon-theme"
             ],
             "settings": {
                 "chat.editing.alwaysSaveWithGeneratedChanges": true,
