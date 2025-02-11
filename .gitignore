@@ -1,13 +1,16 @@
-# Вместо .dockerignore/.containerignore
+# В случае чего,
+# вместо .dockerignore или .containerignore
 # линковать на этот файл.
 
-# php
-vendor
-composer.lock
+# Общее
 .env
 *.zip
 
-#ChatGpt:
+# Зависимости PHP
+vendor
+composer.lock
+
+# Terraform
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
