@@ -16,17 +16,18 @@
             ],
             "settings": {
                 "chat.editing.alwaysSaveWithGeneratedChanges": true,
-                "explorer.decorations.colors": true,
-                "explorer.decorations.badges": true,
-                "workbench.iconTheme": "material-icon-theme",
                 "explorer.confirmDragAndDrop": false,
+                "explorer.decorations.badges": true,
+                "explorer.decorations.colors": true,
+                "explorer.excludeGitIgnore": true,
                 "window.commandCenter": false,
-                "workbench.layoutControl.enabled": false,
-                "workbench.statusBar.visible": false,
-                "workbench.editor.showTabs": "none",
-                "workbench.sideBar.location": "right",
                 "workbench.editor.editorActionsLocation": "hidden",
-                "workbench.settings.editor": "json"
+                "workbench.editor.showTabs": "none",
+                "workbench.iconTheme": "material-icon-theme",
+                "workbench.layoutControl.enabled": false,
+                "workbench.settings.editor": "json",
+                "workbench.sideBar.location": "right",
+                "workbench.statusBar.visible": false
             }
         }
     }
